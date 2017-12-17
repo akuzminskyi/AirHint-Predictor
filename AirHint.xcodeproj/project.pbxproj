@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B711B1261FE583060021DC97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1251FE583060021DC97 /* AppDelegate.swift */; };
-		B711B1281FE583060021DC97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1271FE583060021DC97 /* ViewController.swift */; };
 		B711B12B1FE583060021DC97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B711B1291FE583060021DC97 /* Main.storyboard */; };
 		B711B12D1FE583060021DC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B711B12C1FE583060021DC97 /* Assets.xcassets */; };
 		B711B1301FE583060021DC97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B711B12E1FE583060021DC97 /* LaunchScreen.storyboard */; };
 		B711B13B1FE583060021DC97 /* AirHintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B13A1FE583060021DC97 /* AirHintTests.swift */; };
+		B711B1471FE5850B0021DC97 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1461FE5850B0021DC97 /* Trip.swift */; };
+		B711B1491FE5851A0021DC97 /* Tripping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1481FE5851A0021DC97 /* Tripping.swift */; };
+		B711B14B1FE585690021DC97 /* Airporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B14A1FE585690021DC97 /* Airporting.swift */; };
+		B711B14D1FE586350021DC97 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B14C1FE586350021DC97 /* Airport.swift */; };
+		B711B14F1FE586FD0021DC97 /* Airlining.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B14E1FE586FD0021DC97 /* Airlining.swift */; };
+		B711B1511FE588230021DC97 /* Ryanair.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1501FE588230021DC97 /* Ryanair.swift */; };
+		B711B1531FE589FA0021DC97 /* Predicting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1521FE589FA0021DC97 /* Predicting.swift */; };
+		B711B1551FE58AD80021DC97 /* Predict.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1541FE58AD80021DC97 /* Predict.swift */; };
+		B711B1571FE58B9A0021DC97 /* Pricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1561FE58B9A0021DC97 /* Pricing.swift */; };
+		B711B1591FE58BA40021DC97 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1581FE58BA40021DC97 /* Price.swift */; };
+		B711B15B1FE59F840021DC97 /* SearchFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B15A1FE59F840021DC97 /* SearchFlightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +38,6 @@
 /* Begin PBXFileReference section */
 		B711B1221FE583060021DC97 /* AirHint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirHint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B711B1251FE583060021DC97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B711B1271FE583060021DC97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B711B12A1FE583060021DC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B711B12C1FE583060021DC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B711B12F1FE583060021DC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +45,17 @@
 		B711B1361FE583060021DC97 /* AirHintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirHintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B711B13A1FE583060021DC97 /* AirHintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirHintTests.swift; sourceTree = "<group>"; };
 		B711B13C1FE583060021DC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B711B1461FE5850B0021DC97 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		B711B1481FE5851A0021DC97 /* Tripping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tripping.swift; sourceTree = "<group>"; };
+		B711B14A1FE585690021DC97 /* Airporting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airporting.swift; sourceTree = "<group>"; };
+		B711B14C1FE586350021DC97 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		B711B14E1FE586FD0021DC97 /* Airlining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airlining.swift; sourceTree = "<group>"; };
+		B711B1501FE588230021DC97 /* Ryanair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ryanair.swift; sourceTree = "<group>"; };
+		B711B1521FE589FA0021DC97 /* Predicting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicting.swift; sourceTree = "<group>"; };
+		B711B1541FE58AD80021DC97 /* Predict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predict.swift; sourceTree = "<group>"; };
+		B711B1561FE58B9A0021DC97 /* Pricing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pricing.swift; sourceTree = "<group>"; };
+		B711B1581FE58BA40021DC97 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		B711B15A1FE59F840021DC97 /* SearchFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFlightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +97,10 @@
 		B711B1241FE583060021DC97 /* AirHint */ = {
 			isa = PBXGroup;
 			children = (
+				B711B15D1FE66AEF0021DC97 /* Resources */,
+				B711B15C1FE59F8A0021DC97 /* VIewControllers */,
+				B711B1451FE583130021DC97 /* Models */,
 				B711B1251FE583060021DC97 /* AppDelegate.swift */,
-				B711B1271FE583060021DC97 /* ViewController.swift */,
-				B711B1291FE583060021DC97 /* Main.storyboard */,
-				B711B12C1FE583060021DC97 /* Assets.xcassets */,
-				B711B12E1FE583060021DC97 /* LaunchScreen.storyboard */,
 				B711B1311FE583060021DC97 /* Info.plist */,
 			);
 			path = AirHint;
@@ -94,6 +113,41 @@
 				B711B13C1FE583060021DC97 /* Info.plist */,
 			);
 			path = AirHintTests;
+			sourceTree = "<group>";
+		};
+		B711B1451FE583130021DC97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B711B1461FE5850B0021DC97 /* Trip.swift */,
+				B711B1481FE5851A0021DC97 /* Tripping.swift */,
+				B711B14A1FE585690021DC97 /* Airporting.swift */,
+				B711B14C1FE586350021DC97 /* Airport.swift */,
+				B711B14E1FE586FD0021DC97 /* Airlining.swift */,
+				B711B1501FE588230021DC97 /* Ryanair.swift */,
+				B711B1521FE589FA0021DC97 /* Predicting.swift */,
+				B711B1541FE58AD80021DC97 /* Predict.swift */,
+				B711B1561FE58B9A0021DC97 /* Pricing.swift */,
+				B711B1581FE58BA40021DC97 /* Price.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B711B15C1FE59F8A0021DC97 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B711B15A1FE59F840021DC97 /* SearchFlightViewController.swift */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		B711B15D1FE66AEF0021DC97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B711B1291FE583060021DC97 /* Main.storyboard */,
+				B711B12E1FE583060021DC97 /* LaunchScreen.storyboard */,
+				B711B12C1FE583060021DC97 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B711B1281FE583060021DC97 /* ViewController.swift in Sources */,
+				B711B1471FE5850B0021DC97 /* Trip.swift in Sources */,
+				B711B1491FE5851A0021DC97 /* Tripping.swift in Sources */,
+				B711B1531FE589FA0021DC97 /* Predicting.swift in Sources */,
+				B711B15B1FE59F840021DC97 /* SearchFlightViewController.swift in Sources */,
+				B711B1571FE58B9A0021DC97 /* Pricing.swift in Sources */,
+				B711B1591FE58BA40021DC97 /* Price.swift in Sources */,
+				B711B14D1FE586350021DC97 /* Airport.swift in Sources */,
+				B711B1551FE58AD80021DC97 /* Predict.swift in Sources */,
 				B711B1261FE583060021DC97 /* AppDelegate.swift in Sources */,
+				B711B14F1FE586FD0021DC97 /* Airlining.swift in Sources */,
+				B711B1511FE588230021DC97 /* Ryanair.swift in Sources */,
+				B711B14B1FE585690021DC97 /* Airporting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -353,14 +417,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2M6RZ43DE;
 				INFOPLIST_FILE = AirHint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akuzminskyi.AirHint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -368,14 +434,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2M6RZ43DE;
 				INFOPLIST_FILE = AirHint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akuzminskyi.AirHint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
