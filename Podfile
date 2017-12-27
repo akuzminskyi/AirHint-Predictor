@@ -3,6 +3,7 @@ target 'AirHint' do
     platform :ios, '10.0'
     use_frameworks!
     pod 'SwinjectStoryboard'
+    pod 'Alamofire'
 
     target 'AirHintTests' do
         inherit! :search_paths
