@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B711733F1FE6C34900E66923 /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711733E1FE6C34900E66923 /* ServiceAssembly.swift */; };
 		B711B1261FE583060021DC97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711B1251FE583060021DC97 /* AppDelegate.swift */; };
 		B711B12B1FE583060021DC97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B711B1291FE583060021DC97 /* Main.storyboard */; };
 		B711B12D1FE583060021DC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B711B12C1FE583060021DC97 /* Assets.xcassets */; };
@@ -28,6 +29,9 @@
 		B717E0431FE6916E00F4540B /* NetworkResponding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B717E0421FE6916E00F4540B /* NetworkResponding.swift */; };
 		B717E0451FE6929B00F4540B /* URLSessionNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B717E0441FE6929B00F4540B /* URLSessionNetwork.swift */; };
 		B717E04D1FE6A0C900F4540B /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B717E04C1FE6A0C900F4540B /* NetworkResponse.swift */; };
+		B77A45B91FF18AED00872F4A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A45B81FF18AED00872F4A /* Result.swift */; };
+		B77A45BC1FF18E2E00872F4A /* Wizzair.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A45BB1FF18E2E00872F4A /* Wizzair.swift */; };
+		B77A45BE1FF18E8900872F4A /* Easyjet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A45BD1FF18E8900872F4A /* Easyjet.swift */; };
 		B7C399531FF44159008C3C1C /* NetworkServicingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C399521FF44159008C3C1C /* NetworkServicingSpec.swift */; };
 		B7C399561FF448A0008C3C1C /* NetworkServicingTestingData.json in Resources */ = {isa = PBXBuildFile; fileRef = B7C399551FF448A0008C3C1C /* NetworkServicingTestingData.json */; };
 		BE2199F19CB3E81F96D9E873 /* Pods_AirHintTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC28792509E8F93D28DC4DA5 /* Pods_AirHintTests.framework */; };
@@ -76,6 +80,9 @@
 		B717E0421FE6916E00F4540B /* NetworkResponding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponding.swift; sourceTree = "<group>"; };
 		B717E0441FE6929B00F4540B /* URLSessionNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionNetwork.swift; sourceTree = "<group>"; };
 		B717E04C1FE6A0C900F4540B /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		B77A45B81FF18AED00872F4A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		B77A45BB1FF18E2E00872F4A /* Wizzair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizzair.swift; sourceTree = "<group>"; };
+		B77A45BD1FF18E8900872F4A /* Easyjet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easyjet.swift; sourceTree = "<group>"; };
 		B7C399521FF44159008C3C1C /* NetworkServicingSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServicingSpec.swift; sourceTree = "<group>"; };
 		B7C399551FF448A0008C3C1C /* NetworkServicingTestingData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NetworkServicingTestingData.json; sourceTree = "<group>"; };
 		F2905CD8329B5E96AE6981D9 /* Pods_AirHint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirHint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,8 +178,6 @@
 				B711B1481FE5851A0021DC97 /* Tripping.swift */,
 				B711B14A1FE585690021DC97 /* Airporting.swift */,
 				B711B14C1FE586350021DC97 /* Airport.swift */,
-				B711B14E1FE586FD0021DC97 /* Airlining.swift */,
-				B711B1501FE588230021DC97 /* Ryanair.swift */,
 				B711B1521FE589FA0021DC97 /* Predicting.swift */,
 				B711B1541FE58AD80021DC97 /* Predict.swift */,
 				B711B1561FE58B9A0021DC97 /* Pricing.swift */,
@@ -202,8 +207,20 @@
 			isa = PBXGroup;
 			children = (
 				B77A45BA1FF18DF000872F4A /* Networking */,
+				B77A45B71FF1870200872F4A /* Airlines */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B77A45B71FF1870200872F4A /* Airlines */ = {
+			isa = PBXGroup;
+			children = (
+				B711B14E1FE586FD0021DC97 /* Airlining.swift */,
+				B711B1501FE588230021DC97 /* Ryanair.swift */,
+				B77A45BB1FF18E2E00872F4A /* Wizzair.swift */,
+				B77A45BD1FF18E8900872F4A /* Easyjet.swift */,
+			);
+			path = Airlines;
 			sourceTree = "<group>";
 		};
 		B77A45BA1FF18DF000872F4A /* Networking */ = {
@@ -217,6 +234,14 @@
 				B77A45B81FF18AED00872F4A /* Result.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		B7C399541FF44836008C3C1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7C399551FF448A0008C3C1C /* NetworkServicingTestingData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B8F1BCAD94E45D5783D0D730 /* Pods */ = {
@@ -454,6 +479,7 @@
 				B717E0431FE6916E00F4540B /* NetworkResponding.swift in Sources */,
 				B711B1471FE5850B0021DC97 /* Trip.swift in Sources */,
 				B711B1491FE5851A0021DC97 /* Tripping.swift in Sources */,
+				B77A45BC1FF18E2E00872F4A /* Wizzair.swift in Sources */,
 				B711B1531FE589FA0021DC97 /* Predicting.swift in Sources */,
 				B717E04D1FE6A0C900F4540B /* NetworkResponse.swift in Sources */,
 				B711B15B1FE59F840021DC97 /* SearchFlightViewController.swift in Sources */,
@@ -468,6 +494,7 @@
 				B711B1261FE583060021DC97 /* AppDelegate.swift in Sources */,
 				B717E03F1FE6903500F4540B /* NetworkRequesting.swift in Sources */,
 				B711B14F1FE586FD0021DC97 /* Airlining.swift in Sources */,
+				B77A45BE1FF18E8900872F4A /* Easyjet.swift in Sources */,
 				B711B1511FE588230021DC97 /* Ryanair.swift in Sources */,
 				B711B14B1FE585690021DC97 /* Airporting.swift in Sources */,
 			);

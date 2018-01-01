@@ -8,8 +8,9 @@
 
 import Foundation
 
+typealias IATA = String
+
 protocol Airporting {
-    var code: String { get }
-    var name: String { get }
-    var destinations: [Airporting] { get }
+    var code: IATA { get }
+    var name: String? { get }
 }

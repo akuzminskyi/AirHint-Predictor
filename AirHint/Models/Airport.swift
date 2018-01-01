@@ -8,8 +8,24 @@
 
 import Foundation
 
-struct Airport: Airporting {
-    let code: String
-    let name: String
-    let destinations: [Airporting]
+class Airport: Airporting {
+    let code: IATA
+    let name: String?
+
+    required init(code: IATA, name: String?) {
+        self.code = code
+        self.name = name
+    }
+}
+
+extension Airport {
+    var displayName: String {
+        return name ?? code
+    }
+}
+
+extension Airport: CustomDebugStringConvertible {
+    var debugDescription: String {
+        return "\(code) - \(name ?? "nil")"
+    }
 }

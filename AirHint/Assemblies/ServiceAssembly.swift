@@ -17,5 +17,14 @@ class ServiceAssembly: Assembly {
         container.register(NetworkServicing.self, factory: { resolver in
             return URLSessionNetwork()
         }).inObjectScope(.container)
+        container.register(Airlining.self, name: Ryanair.airhintId) { (resolver) -> Airlining in
+            return Ryanair()
+        }
+        container.register(Airlining.self, name: Wizzair.airhintId) { (resolver) -> Airlining in
+            return Wizzair()
+        }
+        container.register(Airlining.self, name: Easyjet.airhintId) { (resolver) -> Airlining in
+            return Easyjet()
+        }
     }
 }
